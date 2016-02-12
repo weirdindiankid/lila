@@ -8,6 +8,7 @@ import lila.game.{ Game => GameModel, GameRepo }
 import play.api.http.ContentTypes
 import views._
 
+// Game controller
 object Game extends LilaController {
 
   private def paginator = Env.game.paginator
